@@ -43,7 +43,7 @@ fetal_ctg_app/
 
 ### ✅ Test Accuracy
 
-![Accuracy](assets/accuracy_plot.png)
+![Accuracy](accuracy.png)
 
 - **CLASS prediction:** `99.77%`
 - **NSP prediction:** `98.83%`
@@ -52,7 +52,7 @@ fetal_ctg_app/
 
 ### 🔍 Confusion Matrix
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](output.png)
 
 - Balanced performance across all classes
 - Low misclassification rate
@@ -80,13 +80,14 @@ Only **8 most important features** were used in the app:
 
 ## Demo
 
-![Demo](assets/confusion_matrix.png)
+![Demo](demo.png)
 
 
 ### ▶️ Launch locally
 
 ```bash
 streamlit run app.py
+```
 
 🌟 Features
 Autofill button for test inputs
