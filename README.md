@@ -1,5 +1,5 @@
 
-![Start](assets/accuracy_plot.png)
+![Start](FetalHealthPredictorInterfaceDesign.png)
 # 🤰 Fetal State Prediction from CTG Data
 
 This project predicts fetal well-being using **Cardiotocogram (CTG)** data via a multi-output machine learning model. The model predicts:
@@ -14,15 +14,25 @@ A modern **Streamlit web app** is included for interactive predictions with just
 ## 📂 Project Directory Structure
 
 fetal_ctg_app/
+
 ├── app.py # Streamlit application
+
 ├── scaler.pkl # Pre-trained scaler
+
 ├── model.h5 # Trained multi-output model (CLASS & NSP)
+
 ├── README.md # Project documentation
+
 ├── data/
+
 │ ├── CTG.xls # Raw dataset
+
 ├── assets/
+
 │ ├── accuracy_plot.png # Accuracy visualization
+
 │ ├── confusion_matrix.png# Confusion matrix
+
 │ ├── ctg_architecture.png# Model architecture diagram (optional)
 
 
@@ -89,14 +99,14 @@ Only **8 most important features** were used in the app:
 streamlit run app.py
 ```
 
-🌟 Features
+## 🌟 Features
 Autofill button for test inputs
 
 Human-readable predictions with class descriptions
 
 Beautiful UI with gradient and card-based layout
 
-📊 Model Training
+## 📊 Model Training
 Preprocessing via StandardScaler
 
 Multi-output Keras model with softmax heads
@@ -105,15 +115,22 @@ Trained on 2126 samples, validated on holdout test set
 
 
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 ✅ SHAP explainability for real-time feedback
 
 📤 Deploy via Streamlit Cloud
 
 📲 Mobile-friendly UI
 
-📜 License
+## 📜 License
 MIT License. Use freely and cite if helpful.
 
 
----
+### 🙋‍♂️ Author
+ Mohammed Yousuf
+AI Engineering Student | Passionate about Machine Learning, Computer Vision, and Real-World Applications 🚀
+Feel free to reach out or contribute!
+### 📄 License
+This project is licensed under the MIT License.
+### 🌟 Star this repository
+If you found this helpful, give it a ⭐ on GitHub!
