@@ -1,5 +1,5 @@
 
-![Start](FetalHealthPredictorInterfaceDesign.png)
+![Start](Fetal.png)
 # 🤰 Fetal State Prediction from CTG Data
 
 This project predicts fetal well-being using **Cardiotocogram (CTG)** data via a multi-output machine learning model. The model predicts:
